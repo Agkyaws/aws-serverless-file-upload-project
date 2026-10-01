@@ -4,6 +4,8 @@ Uploading files directly from a user to the cloud is a smart way to build applic
 
 In this lab, we will build a complete file upload and processing system. We will use AWS Lambda, Amazon S3, Amazon DynamoDB, and Amazon API Gateway. To create all of this easily, we will use Terraform.
 
+<img width="1042" height="642" alt="Project-1_diagram" src="https://github.com/user-attachments/assets/8c23f979-69ea-4d4f-99fe-bde02d432cc9" />
+
 ## How the System Works
 
 1. **Request a URL:** The user sends a request to API Gateway (`POST /upload`).
